@@ -1,7 +1,8 @@
 import React from 'react'
-import Cloud from '../../../assets/weather.png'
+import Cloud from '../../../../src/images/weather.png'
 import { SlArrowLeft } from "react-icons/sl";
 import { SlArrowRight } from "react-icons/sl";
+import Highlights from '../highlight/highlights';
 
 const Weather = () => {
     const today = new Date();
@@ -38,7 +39,8 @@ const Weather = () => {
                 </div>
             </div>
             <p className='font-Grotesk font-bold text-[#FFFFFF] my-5 px-5 text-[24px]'>Today's Highlights</p>
-        </div >
+            <Highlights />
+        </div>
     )
 }
 
