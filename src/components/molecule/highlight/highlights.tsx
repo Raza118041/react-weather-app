@@ -6,6 +6,7 @@ import Sunset from '../../../images/sunset.png'
 import Cloud from '../../../assets/clouds.svg'
 import Wave from '../../../assets/wave.svg'
 import Pressure from '../../../assets/pressure.svg'
+import Weekly from '../weekly/weekly'
 
 const Highlights = () => {
     return (
@@ -83,6 +84,7 @@ const Highlights = () => {
                 </div>
 
             </div>
+            <Weekly />
         </div>
     )
 }
