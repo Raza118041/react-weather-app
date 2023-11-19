@@ -6,6 +6,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
     fontFamily: {
+      'Grotesk': ['Space Grotesk', 'sans-serif'],
       'Poppins': ['Poppins', 'sans-serif'],
       'sans': ['ui-sans-serif', 'system-ui'],
       'serif': ['ui-serif', 'Georgia'],
