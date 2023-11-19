@@ -1,6 +1,7 @@
 import React from 'react'
 import { IoSearch } from "react-icons/io5";
 import Moon from '../moon/moon';
+import City from '../city/city';
 
 
 const Searchbar = () => {
@@ -17,6 +18,7 @@ const Searchbar = () => {
         </div>
       </div>
       <Moon />
+      <City />
     </>
   )
 }
