@@ -58,7 +58,7 @@ const Weekly = () => {
                 <div className='bg-[#19202D] w-[45%] rounded-lg py-4'>
                     <p className='text-[#FFFFFF] font-Grotesk font-normal text-[16px] text-center'>Thursday</p>
                     <div className='flex justify-center items-center'>
-                        <img src={Sunset} alt='weather' className='ml-4'></img>
+                        <img src={Sunset} alt='weather'></img>
                     </div>
                     <p className='text-[#7F7F7F] font-Grotesk font-normal text-[13px] text-center'>clear sky</p>
                     <div className='flex justify-center items-center gap-2'>
@@ -69,7 +69,7 @@ const Weekly = () => {
                 <div className='bg-[#19202D] w-[45%] rounded-lg py-4'>
                     <p className='text-[#FFFFFF] font-Grotesk font-normal text-[16px] text-center'>Friday</p>
                     <div className='flex justify-center items-center'>
-                        <img src={Rain} alt='weather' className='ml-4'></img>
+                        <img src={Rain} alt='weather'></img>
                     </div>
                     <p className='text-[#7F7F7F] font-Grotesk font-normal text-[13px] text-center'>light rain</p>
                     <div className='flex justify-center items-center gap-2'>
@@ -83,7 +83,7 @@ const Weekly = () => {
                 <div className='bg-[#19202D] w-[45%] rounded-lg py-4'>
                     <p className='text-[#FFFFFF] font-Grotesk font-normal text-[16px] text-center'>Satureday</p>
                     <div className='flex justify-center items-center'>
-                        <img src={Rain} alt='weather' className='ml-4'></img>
+                        <img src={Rain} alt='weather'></img>
                     </div>
                     <p className='text-[#7F7F7F] font-Grotesk font-normal text-[13px] text-center'>light rain</p>
                     <div className='flex justify-center items-center gap-2'>
@@ -94,7 +94,7 @@ const Weekly = () => {
                 <div className='bg-[#19202D] w-[45%] rounded-lg py-4'>
                     <p className='text-[#FFFFFF] font-Grotesk font-normal text-[16px] text-center'>Sunday</p>
                     <div className='flex justify-center items-center'>
-                        <img src={Rain} alt='weather' className='ml-4'></img>
+                        <img src={Rain} alt='weather'></img>
                     </div>
                     <p className='text-[#7F7F7F] font-Grotesk font-normal text-[13px] text-center'>light rain</p>
                     <div className='flex justify-center items-center gap-2'>
